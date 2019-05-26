@@ -1,0 +1,11 @@
+Input 1: 5 3 5 9 7 6 5
+
+Output 1: Sum of it is 40
+        Number of numbers is 7
+        Average is 5.71
+
+Input 2: 2 9 6 8 1 4
+
+Output 2: Sum of it is 30
+        Number of numbers is 6
+        Average is 5
