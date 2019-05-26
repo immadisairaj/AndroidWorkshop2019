@@ -1,0 +1,15 @@
+Assignment
+
+For an Event
+
+will be given no. of students (n)
+
+Hint: Student[] student = new Student[n]; //array of a class Student
+
+Input all the students
+    Name, RollNo, Class, Age
+
+Store them in array if the age is >= 18
+else throw an Exception (Custom)
+
+At last print the ones having age >= 18 (i.e, the details in the array)
