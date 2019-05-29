@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.v("Attach", "0");
         fruitArrayList = new ArrayList<>();
         fruitArrayList.add(new Fruit("Apple", R.drawable.apple));
         fruitArrayList.add(new Fruit("Avocado", R.drawable.avocado));
