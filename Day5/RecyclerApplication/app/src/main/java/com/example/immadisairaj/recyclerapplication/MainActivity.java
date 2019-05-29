@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         fruitArrayList.add(new Fruit("Watermelon", R.drawable.watermelon));
 
         FruitAdapter fruitAdapter = new FruitAdapter(fruitArrayList);
-        Log.v("Attach", "1");
         RecyclerView recyclerView = findViewById(R.id.rv_fruit);
         recyclerView.setAdapter(fruitAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
